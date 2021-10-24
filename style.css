@@ -16,6 +16,7 @@ footer {
   bottom: 0;
   padding: 30px;
   padding-bottom: 60px;
+  position: relative;
 }
 footer h1{
   font-size: 25px;
@@ -95,7 +96,7 @@ footer .copyright{
   text-align: center;
   margin-top: 20px;
   align-items: center;
-  position: fixed;
+  position: absolute;
   width: 100%;
   left: 0;
   bottom: 0;
