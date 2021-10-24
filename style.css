@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 100vh;
+}
+footer {
+  background: #333;
+  bottom: 0;
+  padding: 30px;
+  padding-bottom: 60px;
+}
+footer h1{
+  font-size: 25px;
+  font-weight: 300;
+}
+footer .line{
+  width: 60px;
+  height: 2px;
+  background: white;
+  margin-bottom: 10px;
+  align-items: baseline;
+}
+footer .sec.about{
+  color: white;
+  padding-bottom: 40px;
+}
+footer .sec.about ul{
+  padding-top: 10px;
+  display:  flex;
+  list-style: none;
+}
+footer .sec.about ul li a{
+  display:  inline-block;
+  padding-right: 20px;
+  font-size: 30px;
+  color: white;
+  transition: .5s;
+}
+footer .sec.about ul li a:hover{
+  transform: translateY(-10px);
+}
+footer .sec{
+  color: white;
+  padding-bottom: 40px;
+}
+footer .sec.info .info{
+  position: relative;
+  color: white;
+  padding-bottom: 20px;
+
+}
+footer .sec.info .info span{
+  top: 2px;
+  position: absolute;
+  display: block;
+  
+}
+footer .sec.info .info a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+  opacity: .75;
+}
+footer .sec.info .info a:hover{
+  opacity: 1;
+}
+
+footer .sec.links ul{
+  color: white;
+  list-style: none;
+}
+footer .sec.links ul li a{
+  line-height: 30px;
+  color: white;
+  text-decoration: none;
+  opacity: .75;
+}
+footer .sec.links ul li a:hover{
+  opacity: 1;
+}
+
+footer .copyright{
+  display: flex;
+  color:white;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(83, 80, 80);
+}
+footer .copyright p{
+  line-height: 15px;
+  align-items: center;
+  margin: auto;
+  opacity: 0.5;
+  
+}
+@media (min-width: 740px) {
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  footer .sec.about{
+    width: 30%;  
+  }
+  footer .sec{
+    width: 20%;  
+  }
+  footer .copyright{
+    display: flex;
+  }
+}
